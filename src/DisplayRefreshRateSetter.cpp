@@ -6,7 +6,7 @@
 #include <thread>
 #include <atomic>
 
-#pragma comment(lib, "user32.lib")
+#pragma comment(lib, "User32.lib")
 
 struct DisplayState {
     std::wstring deviceName;
@@ -137,4 +137,5 @@ int wmain(int argc, wchar_t* argv[]) {
 
     std::wcout << L"All Displays Restored\n";
     return 0;
+
 }
