@@ -25,9 +25,9 @@ winget install --accept-source-agreements --accept-package-agreements --exact --
 
 rc src\app.rc
 cl /nologo ^
-   /std:c++20 ^
-   /O2 ^
-   /GL ^
+   /std:c++17 ^
+   /O2 /GL ^
+   /DUNICODE /D_UNICODE ^
    /DNDEBUG ^
    /MT ^
    /W4 ^
@@ -115,5 +115,6 @@ Incorrect refresh rate settings may result in:
 Always verify your monitor capabilities before using --force.
 
 ---
+
 
 
