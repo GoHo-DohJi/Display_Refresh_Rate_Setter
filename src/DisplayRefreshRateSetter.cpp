@@ -6,7 +6,11 @@
 #include <thread>
 #include <atomic>
 
+// Required libraries
 #pragma comment(lib, "User32.lib")
+
+// Linker
+#pragma comment(linker, "/SUBSYSTEM:WINDOWS")
 
 struct DisplayState {
     std::wstring deviceName;
@@ -139,3 +143,4 @@ int wmain(int argc, wchar_t* argv[]) {
     return 0;
 
 }
+
