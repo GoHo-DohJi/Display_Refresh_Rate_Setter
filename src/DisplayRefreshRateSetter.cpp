@@ -6,10 +6,8 @@
 #include <thread>
 #include <atomic>
 
-// Required libraries
 #pragma comment(lib, "User32.lib")
 
-// Linker
 #pragma comment(linker, "/SUBSYSTEM:CONSOLE")
 
 struct DisplayState {
@@ -143,5 +141,6 @@ int wmain(int argc, wchar_t* argv[]) {
     return 0;
 
 }
+
 
 
