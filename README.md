@@ -35,7 +35,6 @@ cl /nologo ^
    /link ^
    /LTCG ^
    /INCREMENTAL:NO ^
-   /SUBSYSTEM:CONSOLE ^
    /OPT:REF /OPT:ICF
 
 
@@ -114,6 +113,7 @@ Incorrect refresh rate settings may result in:
 Always verify your monitor capabilities before using --force.
 
 ---
+
 
 
 
